@@ -14,33 +14,64 @@ This repository contains a beta version of a price monitoring system for **Books
 
 To set up and run the project, follow these steps:
 
-### 1. Clone the Repository
-
-```sh
-git clone https://github.com/jrmenges/Python_Basics.git
-cd Python_Basics
-```
-
-### 2. Create and Activate a Virtual Environment
+### 1. Open Command Prompt/Terminal
 
 #### Windows:
 ```sh
-python -m venv venv
-venv\Scripts\activate
+1. Press 'Win + R' on your keyboard.
+2. Type 'cmd' and press 'Enter'
+3. A Command Prompt window will open.
+```
+
+#### macOS:
+```sh
+1. Press `Command (⌘) + Space` to open Spotlight Search.
+2. Type `Terminal` and press `Enter`.
+```
+
+### Linux:
+```sh
+1. Use the shortcut `Ctrl + Alt + T` to open the terminal.
+2. Alternatively, open the **Applications Menu**, search for **Terminal**, and click on it.
+```
+
+### 2. Clone the Repository
+
+```sh
+In the Command Prompt/Terminal:
+1. Type: git clone https://github.com/jrmenges/Python_Basics.git
+2. Press Enter
+3. Type: cd Python_Basics
+4. Press Enter
+```
+
+### 3. Create and Activate a Virtual Environment
+
+#### Windows:
+```sh
+In the Command Prompt:
+1. Type: python -m venv venv
+2. Press Enter
+3. Type: venv\Scripts\activate
+4. Press Enter
 ```
 
 #### macOS/Linux:
 ```sh
-python3 -m venv venv
-source venv/bin/activate
+In the Terminal:
+1. Type: python3 -m venv venv
+2. Press Enter
+3. Type: source venv/bin/activate
+4. Press Enter
 ```
 
-### 3. Install Jupyter Notebook (if not already installed)
+### 4. Install Requirements
 
 ```sh
-pip install notebook
+In the Command Prompt/Terminal:
+1. Type: pip install -r requirements.txt
+2. Press Enter:
 ```
-
 ---
 
 ## Running the Application
@@ -53,7 +84,7 @@ python -m notebook
 
 Then open the appropriate notebook:
 
-- **Project**: `Book_Scrape_Project.ipynb`
+- **Project**: `Phase_4.ipynb`
 
 Run each notebook cell sequentially to execute the scripts.
 
